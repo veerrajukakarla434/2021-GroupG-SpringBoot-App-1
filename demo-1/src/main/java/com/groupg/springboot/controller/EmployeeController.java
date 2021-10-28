@@ -15,7 +15,6 @@ public class EmployeeController {
 	
 	  @Autowired
 	  EmployeeService service;
-
 	  @PostMapping(value = "/employee")
 	  public ResponseEntity<Object> saveEmployee(@RequestBody Employee emp){
 		  
